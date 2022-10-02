@@ -10,18 +10,18 @@
 - Install Python 3 and git on your instance 
     - `sudo yum install python3 git`
 - Clone this repository
-  - `git clone https://github.com/bluprince13/aws-metadata-json`
+  - `git clone https://github.com/Himaja6426/aws-metadata.git`
 - Install pipenv
   - `sudo pip3 install pipenv`
 - Open the repository on your instance
-  - `cd aws-metadata-json`
+  - `cd aws-metadata`
 - Install project dependancies
   - `pipenv install`
 
 
 ## How to run
 - Open the `src` folder
-  - `cd aws-metadata-json/src`
+  - `cd aws-metadata/src`
 - Run whichever script you need:
   - `python3 get_metadata.py >output.json`
   - `python3 get_key.py`
